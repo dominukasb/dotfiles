@@ -18,6 +18,7 @@ exec --no-startup-id xset s off
 exec --no-startup-id xset -dpms
 exec --no-startup-id xset s noblank
 exec_always --no-startup-id xset s off -dpms s noblank
+exec --no-startup-id xrandr --output DP-0 --mode 2560x1440 --rate 179.95
 
 
 font pango:JetBrains Regular 12
