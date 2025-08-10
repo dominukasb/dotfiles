@@ -35,7 +35,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 
 ### 4. **Picom**
 - Lightweight compositor for transparency and animations.
-- Rounded corners for windows.
+- Rounded corners for windows (not anymore lol)
 - Slight shadow for better window separation.
 
 **File:** [picom/picom.conf](.dotfiles/picom/picom.conf)
