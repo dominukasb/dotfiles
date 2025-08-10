@@ -1,4 +1,4 @@
-# 🛠️ Dotfiles – My Linux Setup
+# 🛠️ Dotfiles – My i3 setup
 
 This repository contains my personal configuration files for a clean, fast, and minimal Linux desktop environment.
 
