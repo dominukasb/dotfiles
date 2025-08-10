@@ -13,7 +13,7 @@ exec_always --no-startup-id picom --experimental-backends --backend glx \
   --shadow-color "#a0522d" \
   --shadow-offset-x 0 \
   --shadow-offset-y 0 \
-  -b
+
 
 # Disable screen blanking
 exec --no-startup-id xset s off
@@ -21,8 +21,9 @@ exec --no-startup-id xset -dpms
 exec --no-startup-id xset s noblank
 exec_always --no-startup-id xset s off -dpms s noblank
 
-font pango:JetBrains Regular 12
 
+font pango:JetBrains Regular 12
+bindsym Print exec flameshot gui
 bindsym $mod+i exec nemo
 exec --no-startup-id docker start searxng
 
