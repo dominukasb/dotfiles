@@ -1,4 +1,4 @@
-# 🛠️ Dotfiles – My i3 setup
+# 🛠️ Dotfiles – My i3 Linux Mint setup
 
 This repository contains my personal configuration files for a clean, fast, and minimal Linux desktop environment.
 
@@ -10,7 +10,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 - Gaps and padding for a cleaner look.
 - Status bar configured for essential system info.
 
-**File:** [`i3/config`](i3/config)
+**File:** [i3/config](.dotfiles/i3/config)
 
 ---
 
@@ -20,7 +20,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 - Custom colorscheme for better readability.
 - Tweaked font size and padding for comfort.
 
-**File:** [`alacritty/alacritty.yml`](alacritty/alacritty.yml)
+**File:** [alacritty/alacritty.yml](.dotfiles/alacritty/alacritty.yml)
 
 ---
 
@@ -29,7 +29,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 - ASCII logo + small image side-by-side for style.
 - Minimal, clean layout.
 
-**File:** [`fastfetch/config.jsonc`](fastfetch/config.jsonc)
+**File:** [fastfetch/config.jsonc](.dotfiles/fastfetch/config.jsonc)
 
 ---
 
@@ -38,7 +38,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 - Rounded corners for windows.
 - Slight shadow for better window separation.
 
-**File:** [`picom/picom.conf`](picom/picom.conf)
+**File:** [picom/picom.conf](.dotfiles/picom/picom.conf)
 
 ---
 
