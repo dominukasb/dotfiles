@@ -20,7 +20,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 - Custom colorscheme for better readability.
 - Tweaked font size and padding for comfort.
 
-**File:** [alacritty/alacritty.yml](.dotfiles/alacritty/alacritty.yml)
+**File:** [alacritty/alacritty.toml](.dotfiles/alacritty/alacritty.toml)
 
 ---
 
