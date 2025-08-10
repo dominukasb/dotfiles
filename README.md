@@ -29,7 +29,7 @@ This repository contains my personal configuration files for a clean, fast, and 
 - ASCII logo + small image side-by-side for style.
 - Minimal, clean layout.
 
-**File:** [fastfetch/config.jsonc](.dotfiles/fastfetch/config.jsonc)
+**File:** [fastfetch/](.dotfiles/fastfetch/)
 
 ---
 
