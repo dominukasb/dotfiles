@@ -1,0 +1,29 @@
+[window]
+opacity = 0.9
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[window.padding]
+x = 10
+y = 10
+
+[window.dimensions]
+columns = 100
+lines = 30
+
+[env]
+TERM = "xterm-256color"
+TERM_PROGRAM = "Alacritty"
+
+[font.normal]
+family = "Hack"
+style = "Bold"
+
+[font]
+size = 12.0
+
+[colors]
+  [colors.primary]
+  background = "#1A1A1A"  # dark bg, matches polybar
+  foreground = "#E0FFFF"  # light cyan
+
