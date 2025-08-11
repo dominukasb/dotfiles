@@ -1,16 +1,6 @@
 set $mod Mod4
 exec_always --no-startup-id feh --bg-scale /home/dominukas/Pictures/backgroundas.png
 
-# Start picom with blur, rounded corners, and shadow used as outline
-exec_always --no-startup-id picom --experimental-backends --backend glx \
-  --blur-method gaussian --blur-strength 7 \
-  --rounded-corners-radius 12 \
-  --shadow-exclude 'class_g = "polybar" or window_type = "dock"' \
-  --shadow-radius 15 \
-  --shadow-opacity 0.4 \
-  --shadow-color "#a0522d" \
-  --shadow-offset-x 0 \
-  --shadow-offset-y 0 \
 
 
 # Disable screen blanking
@@ -19,7 +9,7 @@ exec --no-startup-id xset -dpms
 exec --no-startup-id xset s noblank
 exec_always --no-startup-id xset s off -dpms s noblank
 exec --no-startup-id xrandr --output DP-0 --mode 2560x1440 --rate 179.95
-
+exec_always --no-startup-id picom  -b --config ~/.config/picom/picom.conf 
 
 font pango:JetBrains Regular 12
 bindsym Print exec flameshot gui
@@ -27,12 +17,8 @@ bindsym $mod+k exec nemo
 bindsym $mod+l exec flatpak run io.gitlab.librewolf-community
 exec --no-startup-id docker start searxng
 
-# Gaps
-gaps inner 10
-gaps outer 5
-
-# Enable window borders 2px wide
-for_window [class=".*"] border pixel 2
+# Enable window borders 1px wide
+for_window [class=".*"] border pixel 1
 
 # Window border colors - cyan/aqua theme
 client.focused          #00FFFF #4DC7C5 #ffffff #00FFFF #00FFFF
