@@ -4,8 +4,8 @@ decorations = "Full"
 decorations_theme_variant = "Dark"
 
 [window.padding]
-x = 10
-y = 10
+x = 22
+y = 22
 
 [window.dimensions]
 columns = 100
