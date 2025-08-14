@@ -29,7 +29,7 @@ client.urgent           #00CED1 #900000 #ffffff #00CED1 #00CED1
 hide_edge_borders none
 
 exec --no-startup-id dex --autostart --environment i3
-
+exec --no-startup-id setxkbmap -option caps:none
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
